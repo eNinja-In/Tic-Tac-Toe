@@ -1,22 +1,24 @@
 body{
-    background-color:  #9999CC;
-    margin: 0
+    background-image: url("/resource/background.jpg");
+    background-size: cover;    margin: 0
 }
 .logo,#winner
 {
-    font-size: 17vmin;
+    font-size: 13vmin;
     margin: 0 0 0 0 ;
     width: -webkit-fill-available;
     text-align: center;
+    color: white;
 }
 .win
 {    
     display: none;
     width: -webkit-fill-available;
     text-align: center;
-    margin: 10vmin 0 60vh 0;
+    margin: 10vmin 0 0 0;
 }
 .container{
+    margin : 0vmin 0 0 0;   
     display: grid;
     justify-content: center;
 }
@@ -26,23 +28,29 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin: 5vmin;
+    background-color:rgba(245, 237, 237, 0.08);
+    border-radius: 10%;
 }
 #box{
     width:18vmin;
     height: 18vmin;
-    background-color:#FFFFCC;
+    background-color:transparent;
     margin: 1vmin;
     border-radius: 25%;
-    font-size:7vmin;
-    border: 0.1 black solid;
+    font-size:13vmin;
+    text-align: center;
+    border: 1vmin black solid;
+    -webkit-text-fill-color: white;
 }
 #Reset,#newGame
 {
-    width: 18vmin;
+    width: 22vmin;
     font-size: 3vmin;
-    padding: 1vmin;
-    background-color:#373A40;
+    padding: 2vmin;
+    background-color:#edeff23f;
     color: #FFFFCC;
     margin: 5vmin;
     border-radius: 10%;
+    border: 0;
+    -webkit-text-stroke: 1px rgba(255, 255, 0, 0.342);
 }
